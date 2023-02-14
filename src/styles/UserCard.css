@@ -1,0 +1,70 @@
+.users__container {
+    width: 380px; /* tamaño fijo de la tarjeta */
+    height: 170px; /* tamaño fijo de la tarjeta */
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #d9d9d9;
+    padding: 20px;
+    margin: auto;
+    max-width: 500px;
+    max-height: 300px;
+  }
+  
+  .user__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .user__data-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .user__data-li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .user_data-span {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 80px;
+  }
+  
+  .user__btn {
+    background-color: #555A88;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .user__btn:hover {
+    background-color: #3e8e41;
+    transition: .5s;
+    transform: scale(1.1);
+    font-weight: bold;
+  }
+  
+  /*SECCIÓN RESPONSIVE */
+  @media (max-width: 768px) {
+    .users__container {
+      width: 340px;  /* tamaño fijo de la tarjeta */
+      height: 170px; /* tamaño fijo de la tarjeta */
+      padding: 20px;
+      margin: auto;
+      margin-bottom: .7em;
+      align-items: center;
+      max-width: 100%;
+      }
+  }
