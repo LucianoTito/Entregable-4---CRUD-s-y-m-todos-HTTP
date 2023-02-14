@@ -89,7 +89,7 @@ transition: transform 100ms ease;
 .app__btn-form{
     width: 110px;
     padding: .8em ;
-    margin-left: 100px;
+    margin-left: 64px;
     background-color: #555A88;
     color: #fff;
     box-shadow: 1px 1px 3px #d9d9d9;
